@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="shortcut icon" href="icones/PD-removebg-preview_1_.ico" type="image/x-icon">
+    <title>Perudev</title>
+</head>
+<body>
+<content class="container">
+
+    <header id="header">
+        <nav id="nav">
+            <a id="logo" href="index.html">PERUDEV</a>
+            <ul id="menu">
+                <li><a href="#"><img src="icones/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="icones/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="icones/linkedin.png" alt="linkedin"></a></li>
+                <li><a href="#"><img src="icones/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="icones/tiktok.png" alt="tiktok"></a></li>
+                <li><a href="#"><img src="icones/github.png" alt="github"></a></li>
+            </ul>
+            <img id="btn" style="max-width: 30px;" src="icones/barra-de-menu.png" alt="menu">
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="title">
+            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure distinctio consectetur, ea quibusdam mollitia natus libero, reprehenderit numquam commodi beatae quaerat. Provident vel sint fugit earum quis fugiat labore laboriosam?</p>
+            <button class="btn"><a href="#">Saiba Mais</a></button>
+        </div>
+
+        <div class="video">
+            <img src="imagens/perudev.png" alt="imagem">
+        </div>
+    </section>
+
+    <section class="imagens">
+        <img src="imagens/PROGRAMACAO-1.jpg" alt="responsivo">
+        <img src="imagens/hospedagem.jpg" alt="hospedagem">
+        <img src="imagens/manutencao.jpg" alt="manutencao">
+        <img src="imagens/student-849825_640.jpg" alt="desenvolvimento">
+    </section>
+
+    <main class="atributos">
+        <div class="destaque-1">
+            <div class="destaques">
+                <h2>1. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+            <div class="destaques">
+                <h2>2. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+            <div class="destaques">
+                <h2>3. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+        </div>
+
+        <div class="destaque-2">
+            <div class="destaques">
+                <h2>4. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+            <div class="destaques">
+                <h2>5. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+            <div class="destaques">
+                <h2>6. lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum expedita quibusdam provident     praesentium laudantium iure ipsa vel. Eveniet, consequuntur quasi excepturi aperiam odio ad ut     doloremque explicabo, libero, labore eius.</p>
+                <button class="btn"><a href="#">Saiba Mais</a></button>
+            </div>
+        </div>
+    </main>
+
+    <article class="article">
+        <div class="depoimentos">
+            <img src="imagens/html-5.png" alt="html">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam minus eveniet sed enim provident vel quasi ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+        <div class="depoimentos">
+            <img src="imagens/css.png" alt="css">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam minus eveniet sed enim provident vel quasi ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="depoimentos">
+            <img src="imagens/js.png" alt="javascript">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nam minus eveniet sed enim provident vel quasi ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </article>
+
+    <footer class="footer">
+        Desenvolvido por: &copy; Perudev 2023
+    </footer>
+
+
+
+</content>
+<script>
+    const btn = document.getElementById('btn');
+
+    function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+    }
+
+    btn.addEventListener('click', toggleMenu);
+</script>
+</body>
+</html>

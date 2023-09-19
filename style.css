@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Kaushan+Script&family=Roboto&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#header{
+    grid-area: header;
+    background: rgba(99, 99, 99, 636363);
+    padding: 26.5px;
+    /* position: fixed;
+    width: 100%; */
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo{
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu li{
+    list-style: none;   
+}
+
+#menu img{
+    margin-right: 40px;
+    max-width: 30px;
+}
+
+#btn{
+    display: none;
+}
+
+/* --------------------------------------------------- */
+h1{
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1.5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 3fr 200px;
+    grid-template-rows: auto;
+    grid-template-areas:  
+    "header header header"
+    "section section section"
+    "imagens imagens imagens"
+    "atributos atributos atributos"
+    "article article article"
+    "footer footer footer";
+}
+
+.section{
+    grid-area: section;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    background: rgb(206, 206, 206);
+}
+
+.title{
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.title p{
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.video img{
+   max-width: 95%;
+   margin: 20px 0;
+}
+
+.btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(108, 15, 47, 602);
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.imagens{
+    grid-area: imagens;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+    padding: 20px;
+}
+
+.imagens img{
+    max-width: 20%;
+    margin: 20px; 
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.atributos{
+    grid-area: atributos;
+    grid-column: 2/3;
+    background: whitesmoke;
+}
+
+.destaque-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.destaque-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.destaques{
+    max-width: 400px;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.article{
+    grid-area: article;
+    grid-column: 2/3;
+    display: flex; 
+    justify-content: space-evenly;
+    background: rgb(206, 206, 206);
+    padding: 20px;
+}
+
+.article img{
+    max-width: 100%;
+    max-height: 50%;
+    padding: 10px;
+}
+
+.depoimentos{
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+.depoimentos p{
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer{
+    grid-area: footer;
+    background: black;
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
